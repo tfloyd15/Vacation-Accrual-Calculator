@@ -108,13 +108,13 @@ class Window(QtGui.QMainWindow):
 		#Quit Button Visual
 		quit_btn = QtGui.QPushButton("Quit",self)
 		quit_btn.resize(quit_btn.sizeHint())
-		quit_btn.move(0,44)
+		quit_btn.move(200,44)
 		quit_btn.clicked.connect(self.close_application)
 
 		#Run Button Visual
 		run_btn = QtGui.QPushButton("Run", self)
 		run_btn.resize(run_btn.sizeHint())
-		run_btn.move(200,44)
+		run_btn.move(0,44)
 		run_btn.clicked.connect(self.run_program)
 		
 
